@@ -1,0 +1,171 @@
+{
+    "common": {
+        "brand": "Ahlul Athar Foundation",
+        "brandFull": "Ahlul Athar Dawah & Guidance Foundation",
+        "nav": {
+            "about": "About",
+            "services": "Services",
+            "impact": "Impact",
+            "updates": "Updates",
+            "contact": "Contact"
+        },
+        "buttons": {
+            "donateNow": "Donate Now",
+            "discoverServices": "Explore Our Services",
+            "contactSupport": "Contact Support Team"
+        },
+        "contact": {
+            "emailLabel": "Email",
+            "phoneLabel": "Phone",
+            "addressLabel": "Address",
+            "emailValue": "info@athar.mw",
+            "phoneValue": "+265 000 000 000 / +265 000 000 111",
+            "addressValue": "Lilongwe, Malawi"
+        },
+        "footer": {
+            "mission": "We work to spread the Salafi methodology across Malawi through educational and social programs that strengthen creed and support the community.",
+            "rights": "© {{year}} All rights reserved."
+        },
+        "language": {
+            "current": "English",
+            "switchTo": "العربية"
+        },
+        "accessibility": {
+            "openMenu": "Open menu",
+            "closeMenu": "Close menu"
+        }
+    },
+    "home": {
+        "hero": {
+            "badge": "Ahlul Athar Dawah & Guidance Foundation",
+            "title": "A beacon reviving Qur'an and Sunnah in Malawi",
+            "description": "We are an independent civil foundation dedicated to calling to Allah, spreading authentic creed, reviving the Sunnah, combating innovation, and educating communities in Malawi upon the methodology of the pious predecessors, with a constant vision to establish schools and Islamic institutes.",
+            "welcomeTitle": "Welcome back, {{name}} 👋",
+            "welcomeBody": "Great to see you again. Explore our latest programs and events."
+        },
+        "stats": [
+            {
+                "label": "Beneficiary Villages",
+                "value": "35+"
+            },
+            {
+                "label": "Weekly Study Circles",
+                "value": "60+"
+            },
+            {
+                "label": "Social Projects",
+                "value": "25+"
+            },
+            {
+                "label": "Students in Our Schools",
+                "value": "800+"
+            }
+        ],
+        "about": {
+            "title": "Insightful dawah and structured work to serve the community",
+            "description": "Ahlul Athar Dawah & Guidance Foundation in Malawi teaches people the fundamentals of their faith, strengthens their bond with sound creed, and implements awareness and social programs that preserve Muslim identity, uphold their rights, and spread virtue in society.",
+            "visionTitle": "Our Vision",
+            "visionDescription": "We aim to establish a network of Quranic schools and Islamic institutes that graduate students firmly grounded in Tawhid and Sunnah, capable of leading their communities with truth and justice.",
+            "values": [
+                {
+                    "title": "Salafi Methodology",
+                    "description": "We adhere to the Qur'an and Sunnah upon the understanding of the righteous predecessors, focusing on instilling the sound creed in people's hearts."
+                },
+                {
+                    "title": "Education",
+                    "description": "We believe that Islamic knowledge is the foundation for building a Muslim individual empowered to serve their community."
+                },
+                {
+                    "title": "Institutional Work",
+                    "description": "An independent civil organization with legal personality, operating with clear plans to serve the community and support educational and social programs."
+                }
+            ]
+        },
+        "services": {
+            "overline": "Our Services",
+            "title": "We accompany you on a journey of faith and giving",
+            "description": "We offer programs that combine educational dawah and community awareness, guiding people back to the Salafi path and charting for them a course of steadfastness and balance.",
+            "badge": "Community Program",
+            "items": [
+                {
+                    "title": "Qur'an and Sunnah Education",
+                    "description": "Regular scholarly circles that deepen the understanding of Allah's Book and the Sunnah of His Messenger."
+                },
+                {
+                    "title": "Islamic Lectures",
+                    "description": "Weekly lectures delivered by scholars and preachers to strengthen faith and refine morals."
+                },
+                {
+                    "title": "Children's Programs",
+                    "description": "Educational and recreational activities that help children build their Islamic identity in a safe environment."
+                },
+                {
+                    "title": "Women's Services",
+                    "description": "Knowledge gatherings, support meetings, and tailored programs addressing the needs of women in the community."
+                },
+                {
+                    "title": "New Muslim Support",
+                    "description": "Personal mentoring, foundational lessons, and introductory circles to ease the integration of new Muslims."
+                },
+                {
+                    "title": "Youth Empowerment",
+                    "description": "Guidance and mentoring for youth to face challenges, providing safe spaces for dialogue and growth."
+                }
+            ]
+        },
+        "impact": {
+            "overline": "Our Impact",
+            "title": "Ongoing dawah and educational programs across Malawi",
+            "description": "We reach villages and neighborhoods, revive mosques, organize lectures, sponsor Quran circles, and support those in need so the pure creed remains a shining light for the people of Malawi.",
+            "highlights": [
+                "Creed and Tawhid lectures",
+                "Quran teaching circles",
+                "Dawah visits to remote villages",
+                "Support programs for the vulnerable"
+            ],
+            "ctaTitle": "Join us in spreading the authentic methodology in Malawi",
+            "ctaDescription": "We invite you to support our dawah and educational projects and to back the efforts that restore clarity of creed and help families remain steadfast upon the true religion.",
+            "locationLabel": "Our Location",
+            "locationValue": "Lilongwe, Republic of Malawi",
+            "contactLabel": "Contact Us"
+        },
+        "updates": {
+            "overline": "Latest Updates",
+            "title": "Keeping our community informed",
+            "description": "Follow the updates and new programs we launch regularly to serve the community—from educational courses to charitable initiatives and events tailored for youth and families.",
+            "loading": "Loading...",
+            "empty": "No updates available at the moment.",
+            "error": "Failed to load updates",
+            "types": {
+                "feature": "New Feature",
+                "fix": "Fix",
+                "improvement": "Improvement"
+            }
+        },
+        "contact": {
+            "title": "Join us in creating positive impact",
+            "description": "Be part of our vision to instill the Salafi creed in Muslims' hearts and help establish schools and institutes that protect our children from deviation and innovation.",
+            "cards": [
+                {
+                    "title": "Email",
+                    "value": "info@athar.mw",
+                    "href": "mailto:info@athar.mw"
+                },
+                {
+                    "title": "Phone",
+                    "value": "+265 000 000 000 / +265 000 000 111",
+                    "href": "tel:+265000000000"
+                },
+                {
+                    "title": "Address",
+                    "value": "Lilongwe - Malawi"
+                }
+            ]
+        },
+        "donate": {
+            "title": "Help us expand our dawah and educational reach",
+            "description": "Every contribution enables us to hold study circles, support Quran school students, and carry the message to new villages across Malawi.",
+            "cta": "Contact the donations team"
+        }
+    }
+}

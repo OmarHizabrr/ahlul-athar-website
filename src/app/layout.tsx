@@ -1,4 +1,5 @@
 import { AuthProvider } from "@/contexts/AuthContext";
+import { LanguageProvider } from "@/i18n/I18nContext";
 import { MessageProvider } from "@/lib/messageService";
 import type { Metadata } from "next";
 import "./globals.css";
@@ -20,9 +21,11 @@ export default function RootLayout({
   return (
     <html lang="ar" dir="rtl">
       <body className="antialiased">
-        <AuthProvider>
-          <MessageProvider>{children}</MessageProvider>
-        </AuthProvider>
+        <LanguageProvider>
+          <AuthProvider>
+            <MessageProvider>{children}</MessageProvider>
+          </AuthProvider>
+        </LanguageProvider>
       </body>
     </html>
   );
