@@ -50,9 +50,9 @@ const services = [
 
 const values = [
   {
-    title: "الرحمة",
+    title: "المنهجية السلفية",
     description:
-      "ننشر روح التعاطف والمحبة بين أفراد المجتمع، ونمد يد العون لكل محتاج.",
+      "نسير على الكتاب والسنة بفهم السلف الصالح، ونركز على ترسيخ العقيدة الصحيحة في قلوب الناس.",
   },
   {
     title: "التعليم",
@@ -60,9 +60,9 @@ const values = [
       "نؤمن أن العلم الشرعي هو أساس بناء الإنسان المسلم وتمكينه من خدمة مجتمعه.",
   },
   {
-    title: "التكامل",
+    title: "العمل المؤسسي",
     description:
-      "نوفّر بيئة تجمع كل الأعراق والفئات تحت سقف واحد يسوده التعاون والاحترام.",
+      "مؤسسة أهلية ذات شخصية اعتبارية مستقلة، تعمل بخطط واضحة لخدمة المجتمع ودعم برامجه التعليمية والاجتماعية.",
   },
 ];
 
@@ -146,14 +146,15 @@ export default function HomePage() {
         <div className="relative z-10 mx-auto flex min-h-[70vh] max-w-6xl flex-col items-center justify-center gap-10 px-6 py-24 text-center">
           <div className="space-y-4">
             <p className="text-sm font-semibold uppercase tracking-[0.5em] text-emerald-200">
-              مؤسسة أهل الأثر - المملكة المتحدة
+            مؤسسة بقايا أهل الأثر للدعوة والإرشاد
             </p>
             <h1 className="text-4xl font-bold leading-tight sm:text-5xl md:text-6xl">
-              منارة شاملة للتعليم والرحمة في قلب شمال لندن
+            منارة تعيد روح الكتاب والسنة في جمهورية مالاوي
             </h1>
             <p className="mx-auto max-w-3xl text-lg text-emerald-100 md:text-xl">
-              نسعى لبناء مجتمع متراحم ومتعاون، ينهل من القرآن والسنة، ويقدّم الدعم لكل
-              فردٍ مهما كانت خلفيته، لنصنع بيئة إيمانية نابضة بالحياة لكل الأجيال.
+            نحن مؤسسة أهلية مستقلة تعمل على الدعوة إلى الله عز وجل، نشر العقيدة الصحيحة،
+            إحياء السنة، قمع البدعة، وتوعية الجاليات في مالاوي بمنهج السلف الصالح، مع
+            تطلّع دائم لإنشاء المدارس والمعاهد الشرعية.
             </p>
           </div>
 
@@ -181,10 +182,10 @@ export default function HomePage() {
 
           <div className="grid w-full max-w-4xl grid-cols-2 gap-4 text-sm lg:grid-cols-4">
             {[
-              { label: "زوار المركز سنوياً", value: "25,000+" },
-              { label: "برامج أسبوعية", value: "40+" },
-              { label: "متطوعون نشطون", value: "180+" },
-              { label: "سنوات من العطاء", value: "15+" },
+              { label: "قرى مستفيدة", value: "35+" },
+              { label: "حلقات علمية أسبوعية", value: "60+" },
+              { label: "مشروعات اجتماعية", value: "25+" },
+              { label: "طلاب في مدارسنا", value: "800+" },
             ].map((item) => (
               <div
                 key={item.label}
@@ -206,20 +207,19 @@ export default function HomePage() {
           <div className="grid gap-12 md:grid-cols-2 md:gap-16">
             <div className="space-y-6">
               <h2 className="text-3xl font-bold text-gray-900 md:text-4xl">
-                نحتضن الجميع بروح الإسلام الأصيلة
+                دعوة على بصيرة، وعمل مؤسسي لخدمة المجتمع
               </h2>
               <p className="text-lg text-gray-600">
-                مؤسسة أهل الأثر في المملكة المتحدة مركز نابض بالحياة، يفتح أبوابه لكل
-                الشرائح، من أجل بناء مجتمع متراحم، متحد، ومستنير بالقيم الإسلامية. نقدم
-                مزيجاً من التعليم الشرعي، والبرامج المجتمعية، وخدمات الدعم، لنمنح أفراد
-                المجتمع شعوراً حقيقياً بالانتماء والأصالة.
+                مؤسسة بقايا أهل الأثر للدعوة والإرشاد وتوعية الجاليات في مالاوي تعمل على
+                تعليم الناس أصول دينهم، وتقوية ارتباطهم بالعقيدة السليمة، مع تنفيذ برامج
+                توعوية واجتماعية تصون هوية المسلمين وتحفظ حقوقهم وتنشر الفضيلة في المجتمع.
               </p>
               <div className="rounded-3xl bg-gradient-to-br from-emerald-50 via-white to-blue-50 p-6 shadow-inner">
                 <h3 className="text-xl font-semibold text-emerald-700">رؤيتنا</h3>
                 <p className="mt-3 text-gray-600">
-                  نرى مركزنا بيتاً يجمع كل الأعراق والثقافات، ليكون منارة للتعلم، ومكاناً
-                  للأسر والأطفال والشباب يجدون فيه الإرشاد، والدعم، والارتباط بقيمهم
-                  الإسلامية.
+                  نطمح إلى إنشاء شبكة من المدارس القرآنية والمعاهد الشرعية التي تخرّج
+                  طلبة علم راسخين، متقنين للتوحيد والسنة، قادرين على قيادة مجتمعاتهم بالحق
+                  والعدل.
                 </p>
               </div>
             </div>
@@ -250,8 +250,8 @@ export default function HomePage() {
               نرافقك في رحلة الإيمان والعطاء
             </h2>
             <p className="mx-auto mt-4 max-w-3xl text-gray-600">
-              نوفر برامج متكاملة تمتد من التعليم الشرعي إلى الخدمات الاجتماعية، لنضمن لكل
-              فرد مكاناً آمناً يعبّر فيه عن ذاته وينمّي مهاراته ويعزز علاقته بخالقه.
+              نوفر برامج تجمع بين الدعوة التعليمية والتوعية الاجتماعية، لنعيد الناس إلى
+              منهج السلف الصالح ونرسم لهم طريق الاستقامة والاعتدال.
             </p>
           </div>
 
@@ -282,19 +282,18 @@ export default function HomePage() {
                 أثرنا في المجتمع
               </span>
               <h2 className="text-3xl font-bold text-gray-900 md:text-4xl">
-                فعاليات مستمرة تعكس روح المسجد والمجتمع
+                برامج دعوية وتعليمية متواصلة في أرجاء مالاوي
               </h2>
               <p className="text-gray-600">
-                المسجد هو أحب البقاع إلى الله، ونحن نحافظ على هذه الروح من خلال أنشطة
-                يومية، حلقات ذكر، برامج الوعظ، ومبادرات اجتماعية تستثمر طاقات المتطوعين
-                لخدمة المجتمع المحلي والوافدين الجدد.
+                نصل برسالتنا إلى القرى والأحياء، نحيي المساجد، ننظم المحاضرات، نرعى حلقات
+                التحفيظ، ونتعهد المحتاجين، لتبقى العقيدة الصافية نبراساً لأهل مالاوي.
               </p>
               <div className="grid grid-cols-2 gap-4 text-sm">
                 {[
-                  "صلوات يومية وجمعية",
-                  "دروس تحفيظ وتجويد",
-                  "برامج دعم للأسر",
-                  "مبادرات مساعدة المحتاجين",
+                  "محاضرات في العقيدة والتوحيد",
+                  "حلقات لتعليم القرآن الكريم",
+                  "زيارات دعوية للقرى النائية",
+                  "برامج دعم الضعفاء والمحتاجين",
                 ].map((item) => (
                   <div
                     key={item}
@@ -308,22 +307,21 @@ export default function HomePage() {
 
             <div className="rounded-3xl bg-gradient-to-br from-slate-900 via-blue-900 to-emerald-600 p-10 text-white shadow-2xl">
               <h3 className="text-2xl font-semibold">
-                شاركنا بناء مجتمع أكثر تعاطفاً
+                شاركنا نشر المنهج الصحيح في مالاوي
               </h3>
               <p className="mt-4 text-sm text-emerald-100">
-                ندعوك للانضمام إلينا كمتطوع، داعم، أو مشارك في الأنشطة. تواصل معنا لمعرفة
-                الفرص المناسبة لك ولعائلتك.
+                ندعوك للانضمام إلينا في دعم المشاريع الدعوية والتعليمية، ومؤازرة الجهود
+                التي تعيد للأمة صفاء عقيدتها وتعين الأسر على الثبات على الدين الحق.
               </p>
               <div className="mt-8 space-y-4 text-sm">
                 <div>
-                  <p className="font-semibold">عنواننا</p>
-                  <p>111 Carterhatch Road, Enfield, London EN3 5LX</p>
+                  <p className="font-semibold">مقرنا</p>
+                  <p>ليلونغوي، جمهورية مالاوي</p>
                 </div>
                 <div>
                   <p className="font-semibold">تواصل معنا</p>
                   <p>
-                    info@aafuk.org <span className="mx-2">|</span> 07306060377 /
-                    07402386872 / 07875679392
+                    info@athar.mw <span className="mx-2">|</span> +265 000 000 000
                   </p>
                 </div>
               </div>
@@ -396,22 +394,22 @@ export default function HomePage() {
               انضم إلينا في صناعة الأثر الإيجابي
             </h2>
             <p className="text-emerald-100">
-              كن جزءاً من رؤيتنا لبناء مركز إسلامي يحتضن الجميع، ويقدم خدمات تعليمية
-              وإنسانية على مدار العام. تبرع، تطوع، أو شاركنا بخبراتك لنحدث التغيير سوياً.
+              كن جزءاً من رؤيتنا لتثبيت العقيدة السلفية في قلوب المسلمين، وساهم في إنشاء
+              المدارس والمعاهد التي تحمي أبناءنا من الانحراف والبدع.
             </p>
           </div>
           <div className="grid gap-4 text-sm text-emerald-50">
             <div className="rounded-2xl bg-white/10 p-5 backdrop-blur">
               <p className="font-semibold text-white">البريد الإلكتروني</p>
-              <p>info@aafuk.org</p>
+              <p>info@athar.mw</p>
             </div>
             <div className="rounded-2xl bg-white/10 p-5 backdrop-blur">
               <p className="font-semibold text-white">أرقام التواصل</p>
-              <p>07306060377 / 07402386872 / 07875679392</p>
+              <p>+265 000 000 000 / +265 000 000 111</p>
             </div>
             <div className="rounded-2xl bg-white/10 p-5 backdrop-blur">
               <p className="font-semibold text-white">العنوان</p>
-              <p>111 Carterhatch Road, Enfield, London EN3 5LX</p>
+              <p>ليلونغوي - مالاوي</p>
             </div>
           </div>
         </div>
@@ -423,18 +421,17 @@ export default function HomePage() {
       >
         <div className="mx-auto max-w-4xl rounded-3xl border border-gray-100 bg-gray-50 p-10 shadow-lg">
           <h2 className="text-3xl font-bold text-gray-900 md:text-4xl">
-            ساهم معنا في توسيع نطاق الخير
+            ساعدنا على توسيع دائرة الدعوة والتعليم
           </h2>
           <p className="mt-4 text-gray-600">
-            كل تبرع يدعم برامج التعليم، خدمات الدعم، ومبادراتنا الإنسانية. تبرعك اليوم
-            يساعدنا على الوصول إلى مزيد من العائلات والأطفال والشباب في منطقتنا.
+            كل مساهمة مالية تمكننا من إقامة حلقات العلم، دعم طلاب المدارس القرآنية، وإيصال
+            الرسالة إلى قرى جديدة في أنحاء مالاوي.
           </p>
           <Link
-            href="https://aafuk.org/donate"
-            target="_blank"
+            href="#"
             className="mt-8 inline-flex rounded-full bg-emerald-500 px-10 py-3 text-base font-semibold text-white shadow-xl transition hover:bg-emerald-600"
           >
-            تبرع عبر موقعنا
+            تواصل مع فريق التبرعات
           </Link>
         </div>
       </section>
