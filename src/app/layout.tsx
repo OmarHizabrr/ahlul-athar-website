@@ -5,12 +5,23 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "مؤسسة أهل الأثر",
+  title: "مؤسسة بقايا أهل الأثر للدعوة والإرشاد",
   description:
-    "منصة رقمية لخدمات مؤسسة أهل الأثر في شمال لندن، تعزز التعلم الشامل وروح المجتمع.",
-  keywords: ["أهل الأثر", "المملكة المتحدة", "تعليم إسلامي", "شمال لندن"],
-  authors: [{ name: "Ahlul-Athar Foundation" }],
+    "مؤسسة أهلية مستقلة في مالاوي تعنى بالدعوة إلى الله على الكتاب والسنة بفهم السلف، وتعمل على التوعية الدينية، وإحياء السنة، والتحذير من البدعة، إضافة إلى تطلعاتها لإنشاء مدارس قرآنية ومعاهد شرعية.",
+  keywords: [
+    "مؤسسة بقايا أهل الأثر",
+    "الدعوة والإرشاد",
+    "مالاوي",
+    "السلف الصالح",
+    "التوعية الدينية",
+  ],
+  authors: [{ name: "مؤسسة بقايا أهل الأثر" }],
   robots: "index, follow",
+  icons: {
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
+  },
 };
 
 export default function RootLayout({
